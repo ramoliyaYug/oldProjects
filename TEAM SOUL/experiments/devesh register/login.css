@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    /* background: rgba(0, 0, 0, 0.3) url(https://img.freepik.com/free-vector/blue-black-abstract-background_1340-17012.jpg); */
+    background: rgba(0, 0, 0, 0.453) url(https://www.shutterstock.com/image-vector/3d-artificial-intelligence-robotic-character-600nw-2419497045.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.div1 {
+    width: 100%;
+    max-width: 450px;
+}
+
+.head {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_grp1, .input_grp2 {
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+input.name, input.password {
+    width: 420px;
+    padding: 12px 15px;
+    margin-bottom:5% ;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.name{
+    margin-bottom: 5%;
+}
+
+input.name:focus, input.password:focus {
+    background-color: rgba(255, 255, 255, 0.5);
+    outline: none;
+    box-shadow: 0 0 10px white;
+}
+
+label {
+    position: absolute;
+    top: 32%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: white;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    top: 0;
+    transform: translateY(-100%);
+    font-size: 15px;
+    color: #fffafa;
+}
+
+.button {
+    width: 100%;
+}
+
+button {
+    width: 450px;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-transform: capitalize;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    transform: scale(1.05);
+}
+
+.link1 {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease, text-decoration 0.3s linear, transform 0.3s ease;
+}
+
+.link1:hover {
+    display: inline-block;
+    color: yellow;
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sign {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.part3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.icon-link1, .icon-link2, .icon-link3 {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 45px;
+    color: #fffafa;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-link1:hover, .icon-link2:hover, .icon-link3:hover {
+    transform: scale(1.2);
+}
+.icon-link1:hover{
+    color: #f33434;
+}
+.icon-link2:hover{
+    color: #1a5fdf;
+}
+.icon-link3:hover{
+    color: rgb(34, 34, 39);
+}

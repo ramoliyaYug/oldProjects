@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY CART.COM</title>
+    <link rel="stylesheet" href="FORM VALIDATION.CSS" />
+  </head>
+  <body>
+    <h1>
+      <center>Register yourself to explore</center>
+    </h1>
+    <form
+      onsubmit="return validateForm()"
+      method="post"
+      name="F1"
+      action="mycart.html"
+    >
+      <center>
+        <table id="table" border="0">
+          <tr>
+            <td>First Name</td>
+            <td>&nbsp;</td>
+            <td>
+              <input
+                type="text box"
+                name="txtFirstName"
+                placeholder="Insert First Name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Middle Name</td>
+            <td>&nbsp;</td>
+            <td>
+              <input
+                type="text box"
+                name="txtMiddleName"
+                placeholder="Insert Middle Name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Last Name</td>
+            <td>&nbsp;</td>
+            <td>
+              <input
+                type="text box"
+                name="txtLastName"
+                placeholder="Insert Last Name"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Pincode</td>
+            <td>&nbsp;</td>
+            <td>
+              <input
+                type="text box"
+                name="Pincode"
+                placeholder="Insert Pincode Here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>&nbsp;</td>
+            <td>
+              <input
+                type="password"
+                name="Password"
+                placeholder="Insert Password Here"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Gender</td>
+            <td>&nbsp;</td>
+            <td>
+              <input type="radio" name="Gender" value="male" />Male
+              <input type="radio" name="Gender" value="female" />Female
+            </td>
+          </tr>
+          <tr>
+            <td>Hobby</td>
+            <td>&nbsp;</td>
+            <td>
+              <input type="checkbox" name="chkSinging" value="sing" />Singing
+              <input type="checkbox" name="chkDancing" value="Dance" />Dancing
+              <input type="checkbox" name="chkReading" value="Read" />Reading
+            </td>
+          </tr>
+          <tr>
+            <td>Address</td>
+            <td>&nbsp;</td>
+            <td>
+              <textarea
+                name="txtAddress"
+                cols="70"
+                rows="5"
+                placeholder="Insert Address Here "
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>City</td>
+            <td>&nbsp;</td>
+            <td>
+              <select name="cmbCity">
+                <option>Ahmedabad</option>
+                <option>Baroda</option>
+                <option>Rajkot</option>
+                <option>Surat</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+            <td>&nbsp;</td>
+            <td>
+              <input type="submit" name="cmdSubmit" value="Submit" />
+              <input type="reset" name="cmdReset" value="Reset" />
+            </td>
+          </tr>
+        </table>
+      </center>
+    </form>
+    <script src="FORM VALIDATION.JS"></script>
+  </body>
+</html>

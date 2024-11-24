@@ -1,0 +1,45 @@
+*{
+    background-color: rgb(238, 255, 0);
+}
+
+h1{
+    text-align: center;
+    background-color: darkorchid;
+    color: white ;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.main{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.q{
+    margin: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black ;
+}
+
+.q1{
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    border: 10px solid red;
+    border-radius: 40px;
+}
+
+.q2{
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    border: 10px solid red;
+    border-radius: 40px;
+}

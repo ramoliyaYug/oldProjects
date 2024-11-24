@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mark counter</title>
+    <link rel="stylesheet" href="one subject.css">
+</head>
+<body>
+    <h1>Welcome To Marks Counter</h1>
+    <h2>Count Your One Subject Marks</h2>
+
+    <div class="options">
+
+        <div class="option1">
+            <a href="one subject.html" class="op" id="op">One Subject</a>
+        </div>
+
+        <div class="option2">
+            <a href="mega.html" class="op" id="op">Mega</a>
+        </div>
+
+    </div>
+
+    <div class="attempted">
+        <label for="">Total Attempted Questions</label>
+        <input type="number" id="attempted" placeholder="Enter Your Attempted Questions">
+    </div>
+
+    <div class="wrong">
+        <label for="">Total Wrong Questions</label>
+        <input type="number" id="wrong" placeholder="Enter Your Wrong Questions">
+    </div>
+
+    <div class="btn" id="btn">
+        <button onclick="calculate()" class="bt" id="bt">Calculate</button>
+    </div>
+
+    <div class="score">
+        <table border="1" class="tb">
+            <tr id="table">
+                <td>Total Score</td>
+                <td id="score"></td>
+            </tr>
+            <tr id="table">
+                <td>Average</td>
+                <td id="average"></td>
+            </tr>
+            <tr id="table">
+                <td>Accuracy</td>
+                <td id="accuracy"></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+    <script src="one subject.js"></script>
+</body>
+</html>

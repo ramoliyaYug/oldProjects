@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mark counter</title>
+    <link rel="stylesheet" href="mega.css">
+</head>
+<body>
+    <h1>Welcome To Marks Counter</h1>
+    <h2>Count Mega Test Marks</h2>
+
+    <div class="options">
+
+        <div class="option1">
+            <a href="one subject.html" class="op" id="op">One Subject</a>
+        </div>
+
+        <div class="option2">
+            <a href="mega.html" class="op" id="op">Mega</a>
+        </div>
+
+    </div>
+    
+    <div class="pannel">
+    <div class="p">
+        <h3>Physics</h3>
+        <label for="">Attempted:-</label>
+        <input type="number" id="pattempted" placeholder="Enter Your Attempted Questions">
+        <br>
+        <label for="">wrong:-</label>
+        <input type="number" id="pwrong" placeholder="Enter Your Wrong Questions">
+    </div>
+
+    <div class="c">
+        <h3>Chemistry</h3>
+        <label for="">Attempted:-</label>
+        <input type="number" id="cattempted" placeholder="Enter Your Attempted Questions">
+        <br>
+        <label for="">wrong:-</label>
+        <input type="number" id="cwrong" placeholder="Enter Your Wrong Questions">
+    </div>
+
+    <div class="m">
+        <h3>Maths</h3>
+        <label for="">Attempted:-</label>
+        <input type="number" id="mattempted" placeholder="Enter Your Attempted Questions">
+        <br>
+        <label for="">wrong:-</label>
+        <input type="number" id="mwrong" placeholder="Enter Your Wrong Questions">
+    </div>
+    </div>
+
+    <div class="btn" id="btn">
+        <button onclick="calculate()" class="bt" id="bt">Calculate</button>
+    </div>
+
+    <div class="tab">
+    <div class="pscore">
+        <table border="1" class="ph">
+            <th>Physics</th>
+            <tr>
+                <td>Score</td>
+                <td id="ps"></td>
+            </tr>
+
+            <tr>
+                <td>Average</td>
+                <td id="pavg"></td>
+            </tr>
+
+            <tr>
+                <td>Accuracy</td>
+                <td id="pacc"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="cscore">
+        <table border="1" class="ch">
+            <th>Chemistry</th>
+            <tr>
+                <td>Score</td>
+                <td id="cs"></td>
+            </tr>
+
+            <tr>
+                <td>Average</td>
+                <td id="cavg"></td>
+            </tr>
+
+            <tr>
+                <td>Accuracy</td>
+                <td id="cacc"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="mscore">
+        <table border="1" class="ma">
+            <th>Maths</th>
+            <tr>
+                <td>Score</td>
+                <td id="ms"></td>
+            </tr>
+
+            <tr>
+                <td>Average</td>
+                <td id="mavg"></td>
+            </tr>
+
+            <tr>
+                <td>Accuracy</td>
+                <td id="macc"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="tscore">
+        <table border="1" class="to">
+            <th>Overall</th>
+            <tr>
+                <td>Total Attempted</td>
+                <td id="totattm"></td>
+            </tr>
+            <tr>
+                <td>Total Wrong</td>
+                <td id="totwro"></td>
+            </tr>
+            <tr>
+                <td>Total Score</td>
+                <td id="ts"></td>
+            </tr>
+
+            <tr>
+                <td>Average</td>
+                <td id="tavg"></td>
+            </tr>
+
+            <tr>
+                <td>Accuracy</td>
+                <td id="tacc"></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+
+</body>
+    <script src="mega.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+span#redcolor:hover {
+    color: pink
+}
+div#yellowid {
+    background-color: yellow;
+}
+span#redcolor {
+    color: red;
+}
+h1#nameid {
+    color: rgb(98, 255, 0);
+}
+h1 {
+    color: blue;
+    text-decoration: underline;
+}
+li.blackbackgroundclass {
+    background-color: black;
+    color: rgb(234, 75, 75);
+}
+p {
+    color: green;
+}

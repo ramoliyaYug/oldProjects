@@ -1,0 +1,8 @@
+#timer {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 20%;
+}
+#main-content {
+    display: none; /* Hide main content initially */
+}

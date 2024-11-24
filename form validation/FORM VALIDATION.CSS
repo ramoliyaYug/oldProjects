@@ -1,0 +1,30 @@
+body{
+    font-size: 35px;
+    font-family:rubik bubbles ,secular ,one satisfy ,pacifico;
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    font-family: chakra petch;
+    color: rgb(255, 255, 0);
+}
+
+td{
+    color: rgb(0, 255, 0);
+}
+
+input{
+    background-color: rgb(243, 133, 166);
+}
+
+textarea{
+    background-color: rgb(243, 133, 166);
+}
+
+select{
+    background-color: rgb(243, 133, 166);
+}
+
+option{
+    background-color: rgb(255, 247, 0);
+}

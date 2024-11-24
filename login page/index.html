@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOUL</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <header>
+        <h2 class="logo">
+            LOGO
+        </h2>
+
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+            <button class="btnLogin-popup">Login</button>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <span class="icon-close">
+            <img src="close.png" alt="close">
+        </span>
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#" name="F1" onsubmit="return logincheck()">
+                <div class="input-box">
+                    <span class="icon"><img src="email.png" alt="email"></span>
+                    <input type="email" name="lemail" id="lemail" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><img src="view.png" alt="eye"></span>
+                    <input type="password" name="lpassword" id="lpassword" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox">Remember Me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <input type="submit" class="btn" value="Login">
+                <div class="login-register">
+                    <p>Don't Have An Account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- now register part -->
+
+        <div class="form-box register">
+            <h2>Registration</h2>
+            <form action="index.html" name="F2" onsubmit="return registercheck()">
+                <div class="input-box">
+                    <span class="icon"><img src="user.png" alt="user"></span>
+                    <input type="text" name="runame" id="runame" required>
+                    <label>Username</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><img src="email.png" alt="email"></span>
+                    <input type="email" name="remail" id="remail" required>
+                    <label>Email</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><img src="view.png" alt="eye"></span>
+                    <input type="password" name="rpassword" id="rpassword" required>
+                    <label>Password</label>
+                </div>
+
+                <div class="input-box">
+                    <span class="icon"><img src="view.png" alt="eye"></span>
+                    <input type="password" name="rcpassword" id="rcpassword" required>
+                    <label>Conform Password</label>
+                </div>
+
+                <div class="remember-forgot">
+                    <label><input type="checkbox" required>I Agree To The Terms And Conditions</label>
+                </div>
+                <input type="submit" class="btn" value="Register">
+                <div class="login-register">
+                    <p>Already Have An Account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>

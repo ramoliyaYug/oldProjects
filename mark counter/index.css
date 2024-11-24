@@ -1,0 +1,55 @@
+*{
+    background-color: #2C3A47;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:ital,wght@1,500&display=swap');
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.text{
+    text-align: center;
+    font-size: 60px;
+    color: #3498db;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.button{
+    font-size: 40px;
+    border: 5px solid #8e44ad;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #2ecc71;
+    border-radius: 20px;
+}
+
+#butt{
+    background-color: #ecf0f1;
+    font-size: 40px;
+    border-radius: 20px;
+    margin: 30px;
+    color: red;
+    background-color: yellow;
+}
+.pass{
+    font-size: 30px;
+}
+
+input{
+    font-size: 30px;
+}
+
+#butt:hover{
+    color: yellow;
+    background-color: red;
+}

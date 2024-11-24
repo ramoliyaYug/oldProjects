@@ -1,0 +1,21 @@
+div.container1 {
+    text-align: center;
+    background-color: pink;
+}
+span#lorem {
+    color: yellow;
+}
+div.container2 {
+    text-align: left;
+    background-color: lightblue;
+}
+li.yellow {
+    color: yellow;
+}
+li.red {
+    color: red;
+}
+div.container3 {
+    text-align: right;
+    background-color: lightgreen;
+}

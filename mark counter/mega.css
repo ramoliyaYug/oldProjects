@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 31px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:ital,wght@1,500&display=swap');
+
+body{
+    background-color: rgba(242, 61, 255, 0.641);
+    font-family: 'Merriweather', serif;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+.options{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.option1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.option2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.op{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 30px;
+    font-style: italic;
+    padding: 10px;
+    color:red;
+}
+
+#op:hover{
+    color:red;
+    background-color: rgb(187, 204, 34);
+    border-radius: 10px;
+}
+
+.bt{
+    text-align: center;
+    background-color: rgb(38, 255, 0);
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 30px;
+}
+
+.btn{
+    text-align: center;
+    padding: 10px;
+}
+
+#bt:hover{
+    background-color: rgba(255, 255, 0, 0.786);
+    color: red;
+}
+
+.tab{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.ph{
+    margin: 65px;
+}
+
+.ch{
+    margin: 65px;
+}
+
+.ma{
+    margin: 65px;
+}
+
+.to{
+    margin: 65px;
+}
+
+.pannel{
+    display: flex;
+}
+
+#pattempted{
+    background-color:rgba(242, 61, 255, 0);
+    border: none;
+}
+
+#pwrong{
+    background-color:rgba(242, 61, 255, 0);
+    border: none;
+}
+
+#pattempted:hover{
+    background-color: rgb(255, 255, 0);
+    border-radius: 6px;
+    border: 1px solid black;    
+}
+
+#pwrong:hover{
+    background-color: rgb(255, 255, 0);
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+#cattempted{
+    background-color:rgba(242, 61, 255, 0);
+    border: none;
+}
+
+#cwrong{
+    background-color:rgba(242, 61, 255, 0);
+    border: none;
+}
+
+#cattempted:hover{
+    background-color: rgb(255, 255, 0);
+    border-radius: 6px;
+    border: 1px solid black;    
+}
+
+#cwrong:hover{
+    background-color: rgb(255, 255, 0);
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+#mattempted{
+    background-color:rgba(242, 61, 255, 0);
+    border: none;
+}
+
+#mwrong{
+    background-color:rgba(242, 61, 255, 0);
+    border: none;
+}
+
+#mattempted:hover{
+    background-color: rgb(255, 255, 0);
+    border-radius: 6px;
+    border: 1px solid black;    
+}
+
+#mwrong:hover{
+    background-color: rgb(255, 255, 0);
+    border-radius: 6px;
+    border: 1px solid black;
+}

@@ -1,0 +1,60 @@
+1.Team Leader: Anshuman Ojha
+AI & Data Processing Lead
+
+Anshuman Ojha is the visionary behind our startup,having conceived the original idea that drives our mission. As the Team Leader,he oversees the development of the AI and manages the data processing aspects of our product. His expertise in artificial intelligence ensures that our technology remains cutting-edge and tailored to meet our users' needs. Anshuman is the core architect, turning our innovative ideas into reality.
+
+2.API Development: Saloni Chaudhary
+Backend Integration & Marketing Specialist
+
+Saloni Chaudhary focuses on API development, ensuring seamless communication and integration between different programming languages and frameworks. Additionally, she is actively involved in marketing and presenting our product, helping to shape and communicate our brand’s vision effectively.
+
+3.API Integration & Backend Lead: Om Sharma
+Lead Python & Backend Specialist
+
+Om Sharma leads our API integration and backend development efforts. He ensures that the connection between various programming languages and frameworks is smooth and efficient, while also managing the backend using Python. His leadership in both areas is crucial to maintaining the robustness and scalability of our product.
+
+4.Front-End Development Lead: Devesh Singh
+UI/UX & Web Design Specialist
+
+Devesh Singh leads our front-end web development efforts, bringing the user interface and user experience to life. With expertise in HTML, CSS, JavaScript, and React, Devesh crafts visually appealing and responsive web designs that provide an intuitive experience for our users.  His focus on front-end development ensures that our product not only looks great but functions smoothly across all devices.
+
+
+5.Front-End Developer & Researcher: Deepanshi
+UI/UX & Research Specialist
+
+Deepanshi contributes to our front-end development team, working on creating engaging and functional web interfaces. In addition to her development role, she plays a key part in research, supporting the team with valuable insights and information that drive our project forward. Her dual focus on front-end development and research helps ensure that our product is both innovative and user-friendly.
+
+6.AI Development & Data Processing: Darshit Sengra
+Python & Machine Learning Expert
+
+Darshit Sengra is a vital member of our AI and data processing team, working closely with Anshuman Ojha to bring our product’s artificial intelligence capabilities to the forefront. With exceptional command over Python, Darshit focuses on developing complex algorithms and handling vast datasets, ensuring our AI functions with precision and efficiency. His expertise strengthens the core technology behind our startup.
+
+7.Data Collection Lead: Soumyaditya
+AI Training Data Specialist
+
+Soumyaditya is responsible for collecting and curating the data essential for training our AI models. His role is crucial in ensuring that our AI has access to high-quality and relevant data, which directly impacts the effectiveness and accuracy of our machine learning algorithms. By meticulously gathering and organizing data, Soumyaditya helps lay the foundation for robust and intelligent AI systems.
+
+8.Data Processing & Collection: Som Kumar
+Data Management & Avatar Model Specialist
+
+Som Kumar supports the training of our AI models by managing and refining data to ensure its quality and usability. In addition to his data processing and collection responsibilities, Som works on the avatar model and contributes to marketing and presentation efforts. His contributions are essential for both the technical and promotional aspects of our product.
+
+9.Speech Technology Specialist: Himkar
+Text-to-Speech & Speech-to-Text Expert
+
+Himkar is dedicated to developing and refining our text-to-speech (TTS) and speech-to-text (STT) models. His work focuses on enabling seamless and natural interactions between users and our AI through advanced speech technologies. By optimizing these models, Himkar ensures that our system can accurately interpret and generate spoken language, enhancing the overall user experience.
+
+10.Feature Development Lead: Priyanshu Yadav
+Customized Avatar System Specialist
+
+Priyanshu Yadav is responsible for designing and developing the attractive feature of our product—the customized avatar system. His role involves creating a unique and engaging avatar experience for users, which enhances personalization and interaction with our AI. Priyanshu's focus on this feature ensures that our product stands out and offers a distinctive, user-friendly element.
+
+11.Avatar Model Developer: Chandan
+Customized Avatar Systems & Data Collection Specialist
+
+Chandan contributes to the development of our customized avatar system. In addition to his work on avatar models, Chandan is involved in data collection, supporting our AI training and ensuring that the data used is relevant and high-quality. His dual role enhances both the avatar feature and the data-driven aspects of our product.
+
+12.Full Stack Developer: Yug Ramoliya
+Comprehensive Web Development Specialist
+
+Yug Ramoliya is our versatile Full Stack Developer, adept at handling both front-end and back-end development tasks. With a deep understanding of various technologies, His role involves designing and implementing both the user interface and server-side logic, ensuring that all components of the product work harmoniously. Yug’s expertise in full stack development ensures that our startup’s technology is robust, scalable, and efficient.
